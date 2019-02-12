@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.7-alpine
 MAINTAINER AwEi
 
 RUN pip install speedtest-cli
