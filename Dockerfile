@@ -3,4 +3,4 @@ MAINTAINER AwEi
 
 RUN pip install speedtest-cli
 
-CMD ["speedtest-cli", "run"]
+CMD ["speedtest-cli"]
