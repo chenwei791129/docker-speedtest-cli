@@ -1,6 +1,6 @@
 # SPEEDTEST CLI FOR DOCKER
 ## How to use
-[View on Docker Hub](https://hub.docker.com/r/awei/huawei-lte-router-sms-to-email-sender)
+[View on Docker Hub](https://hub.docker.com/r/awei/speedtest-cli)
 ```console
 $ docker pull awei/speedtest-cli
 $ docker run --rm awei/speedtest-cli
