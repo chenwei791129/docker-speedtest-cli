@@ -6,4 +6,4 @@ LABEL MAINTAINER=AwEi \
 
 RUN pip install --no-cache-dir speedtest-cli
 
-CMD ["speedtest-cli"]
+ENTRYPOINT ["speedtest-cli"]
