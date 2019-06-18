@@ -4,6 +4,9 @@
 ```console
 $ docker run --rm awei/speedtest-cli
 ```
+```console
+$ docker run --rm awei/speedtest-cli --help
+```
 
 ## Build
 ```console
