@@ -1,4 +1,6 @@
 # SPEEDTEST CLI FOR DOCKER
+[![This image on DockerHub](https://img.shields.io/docker/pulls/awei/speedtest-cli.svg)](https://hub.docker.com/r/awei/speedtest-cli/)
+
 ## How to use
 [View on Docker Hub](https://hub.docker.com/r/awei/speedtest-cli)
 ```console
