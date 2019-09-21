@@ -23,4 +23,4 @@ $ docker build --tag awei/speedtest-cli .
 
 ## License
 
-The script is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Dockerfile is open-sourced licensed under the [MIT license](https://opensource.org/licenses/MIT).
