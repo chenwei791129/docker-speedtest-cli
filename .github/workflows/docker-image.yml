@@ -19,7 +19,9 @@ jobs:
           images: |
             ${{ secrets.DOCKER_USER }}/speedtest-cli
           tags: |
-            type=semver,pattern={{raw}}
+            type=semver,pattern=v{{version}}
+            type=semver,pattern=v{{major}}.{{minor}}
+            type=semver,pattern=v{{major}}
             type=raw,value=latest,enable={{is_default_branch}}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
