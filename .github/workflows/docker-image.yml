@@ -3,7 +3,7 @@ name: Docker Image CI
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
 
 # Refer to: https://github.com/docker/build-push-action && https://github.com/docker/metadata-action
 jobs:
