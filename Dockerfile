@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.7.15-alpine3.16
 LABEL MAINTAINER=AwEi \
       GITHUB="https://github.com/chenwei791129/docker-speedtest-cli" \
       DOCKERHUB="https://hub.docker.com/r/awei/speedtest-cli"
