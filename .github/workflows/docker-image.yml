@@ -1,9 +1,10 @@
 name: Docker Image CI
 
 on:
+  workflow_dispatch: {}
   push:
-    branches:
-      - 'master'
+    tags:
+      - 'v*.*.*'
 
 # Refer to: https://github.com/docker/build-push-action && https://github.com/docker/metadata-action
 jobs:
