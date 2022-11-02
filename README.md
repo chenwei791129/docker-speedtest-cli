@@ -1,4 +1,5 @@
 # SPEEDTEST CLI FOR DOCKER
+[![Docker Image CI](https://github.com/chenwei791129/docker-speedtest-cli/actions/workflows/docker-image.yml/badge.svg?branch=master)](https://github.com/chenwei791129/docker-speedtest-cli/actions/workflows/docker-image.yml)
 [![This image on DockerHub](https://img.shields.io/docker/pulls/awei/speedtest-cli.svg)](https://hub.docker.com/r/awei/speedtest-cli/)
 
 ## How to use
