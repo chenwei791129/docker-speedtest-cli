@@ -2,6 +2,7 @@ FROM alpine:latest AS builder
 
 WORKDIR /app
 RUN apk --no-cache add wget && \
+    # v2.1.4b1
     wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/22210ca35228f0bbcef75a7c14587c4ecb875ab4/speedtest.py && \
     chmod +x speedtest-cli
 
