@@ -6,7 +6,7 @@ RUN apk --no-cache add wget && \
     wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/22210ca35228f0bbcef75a7c14587c4ecb875ab4/speedtest.py && \
     chmod +x speedtest-cli
 
-FROM python:3.11.2-alpine3.17
+FROM python:3.11.3-alpine3.18
 LABEL MAINTAINER=AwEi \
       GITHUB="https://github.com/chenwei791129/docker-speedtest-cli" \
       DOCKERHUB="https://hub.docker.com/r/awei/speedtest-cli"
